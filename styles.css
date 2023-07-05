@@ -1,0 +1,41 @@
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: brown;
+}
+
+.axis--x path {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.chart-area {
+    flex: 1;
+    min-height: 500px;
+}
+
+.description-area {
+    flex: 1;
+    padding-left: 20px;
+}
+
+#csvFile {
+    display: block;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
